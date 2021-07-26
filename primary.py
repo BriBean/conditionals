@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Brianna Blue
+# date: 7/22/21
 
 from random import randint
 
@@ -29,12 +29,17 @@ print('\n' + 'Task 1' + '\n')
 #
 # WRITE CODE BELOW #
 a = float(input('a = '))
-b =
-c =
-d =
+b = float(input('b = '))
+c = float(input('c = '))
+d = float(input('d = '))
 
 print('a == b |', a == b)
-
+print('a == b == c |', a == b == c)
+print('a > b > c |', a > b > c)
+print('a < b < c < b |', a < b < c < d)
+print('a != b == c != d |', a != b == c != d)
+print('a >= b >= c == d |', a >= b > c == d)
+print('a <= b > c <= d |', a <= b > c <= d)
 # 2 - if Statements (ONLY USE if STATEMENTS)
 print('\n' + 'Task 2' + '\n')
 # Instructions:
@@ -54,7 +59,7 @@ print('\n' + 'Task 2' + '\n')
 #
 # WRITE CODE BELOW #
 word1 = input('enter a word: ')
-word2 =
+#word2 =
 
 if word1 == word2:
     print(word1, 'and', word2, 'are the same!')
